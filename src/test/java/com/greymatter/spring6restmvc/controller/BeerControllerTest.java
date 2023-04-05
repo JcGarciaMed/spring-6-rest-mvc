@@ -1,5 +1,6 @@
 package com.greymatter.spring6restmvc.controller;
 
+import com.greymatter.spring6restmvc.services.BeerService;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
