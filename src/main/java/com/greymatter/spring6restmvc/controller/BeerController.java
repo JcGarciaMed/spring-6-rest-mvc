@@ -68,4 +68,12 @@ public class BeerController {
         return beerService.getBeerById(beerId);
     }
 
+    @GetMapping("/byRequestParam")
+    public Beer getBeerByIdRequestParam(@RequestParam("beerId") UUID beerId){
+
+        log.debug("Get Beer by Id - in controller");
+
+        return beerService.getBeerById(beerId);
+    }
+
 }
